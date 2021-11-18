@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/comandos.h
+includes.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h
+mundo.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/mundo.h
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/edificios.h
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h
+iostream
+-
+sstream
+-
+string
+-
+vector
+-
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/interface.cpp
+interface.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/interface.h
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/interface.h
+mundo.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/mundo.h
+includes.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h
+comandos.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/comandos.h
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/mundo.h
+includes.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h
+zonas.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/zonas.h
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/zonas.h
+includes.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h
+edificios.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/edificios.h
+

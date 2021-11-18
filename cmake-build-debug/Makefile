@@ -141,6 +141,87 @@ ProjectPOO/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/build
 .PHONY : ProjectPOO/fast
 
+comandos.obj: comandos.cpp.obj
+
+.PHONY : comandos.obj
+
+# target to build an object file
+comandos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/comandos.cpp.obj
+.PHONY : comandos.cpp.obj
+
+comandos.i: comandos.cpp.i
+
+.PHONY : comandos.i
+
+# target to preprocess a source file
+comandos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/comandos.cpp.i
+.PHONY : comandos.cpp.i
+
+comandos.s: comandos.cpp.s
+
+.PHONY : comandos.s
+
+# target to generate assembly for a file
+comandos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/comandos.cpp.s
+.PHONY : comandos.cpp.s
+
+edificios.obj: edificios.cpp.obj
+
+.PHONY : edificios.obj
+
+# target to build an object file
+edificios.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/edificios.cpp.obj
+.PHONY : edificios.cpp.obj
+
+edificios.i: edificios.cpp.i
+
+.PHONY : edificios.i
+
+# target to preprocess a source file
+edificios.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/edificios.cpp.i
+.PHONY : edificios.cpp.i
+
+edificios.s: edificios.cpp.s
+
+.PHONY : edificios.s
+
+# target to generate assembly for a file
+edificios.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/edificios.cpp.s
+.PHONY : edificios.cpp.s
+
+interface.obj: interface.cpp.obj
+
+.PHONY : interface.obj
+
+# target to build an object file
+interface.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/interface.cpp.obj
+.PHONY : interface.cpp.obj
+
+interface.i: interface.cpp.i
+
+.PHONY : interface.i
+
+# target to preprocess a source file
+interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/interface.cpp.i
+.PHONY : interface.cpp.i
+
+interface.s: interface.cpp.s
+
+.PHONY : interface.s
+
+# target to generate assembly for a file
+interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/interface.cpp.s
+.PHONY : interface.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -168,6 +249,114 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mundo.obj: mundo.cpp.obj
+
+.PHONY : mundo.obj
+
+# target to build an object file
+mundo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/mundo.cpp.obj
+.PHONY : mundo.cpp.obj
+
+mundo.i: mundo.cpp.i
+
+.PHONY : mundo.i
+
+# target to preprocess a source file
+mundo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/mundo.cpp.i
+.PHONY : mundo.cpp.i
+
+mundo.s: mundo.cpp.s
+
+.PHONY : mundo.s
+
+# target to generate assembly for a file
+mundo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/mundo.cpp.s
+.PHONY : mundo.cpp.s
+
+recursos.obj: recursos.cpp.obj
+
+.PHONY : recursos.obj
+
+# target to build an object file
+recursos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/recursos.cpp.obj
+.PHONY : recursos.cpp.obj
+
+recursos.i: recursos.cpp.i
+
+.PHONY : recursos.i
+
+# target to preprocess a source file
+recursos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/recursos.cpp.i
+.PHONY : recursos.cpp.i
+
+recursos.s: recursos.cpp.s
+
+.PHONY : recursos.s
+
+# target to generate assembly for a file
+recursos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/recursos.cpp.s
+.PHONY : recursos.cpp.s
+
+trabalhadores.obj: trabalhadores.cpp.obj
+
+.PHONY : trabalhadores.obj
+
+# target to build an object file
+trabalhadores.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.obj
+.PHONY : trabalhadores.cpp.obj
+
+trabalhadores.i: trabalhadores.cpp.i
+
+.PHONY : trabalhadores.i
+
+# target to preprocess a source file
+trabalhadores.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.i
+.PHONY : trabalhadores.cpp.i
+
+trabalhadores.s: trabalhadores.cpp.s
+
+.PHONY : trabalhadores.s
+
+# target to generate assembly for a file
+trabalhadores.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.s
+.PHONY : trabalhadores.cpp.s
+
+zonas.obj: zonas.cpp.obj
+
+.PHONY : zonas.obj
+
+# target to build an object file
+zonas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/zonas.cpp.obj
+.PHONY : zonas.cpp.obj
+
+zonas.i: zonas.cpp.i
+
+.PHONY : zonas.i
+
+# target to preprocess a source file
+zonas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/zonas.cpp.i
+.PHONY : zonas.cpp.i
+
+zonas.s: zonas.cpp.s
+
+.PHONY : zonas.s
+
+# target to generate assembly for a file
+zonas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/zonas.cpp.s
+.PHONY : zonas.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -177,9 +366,30 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ProjectPOO
+	@echo ... comandos.obj
+	@echo ... comandos.i
+	@echo ... comandos.s
+	@echo ... edificios.obj
+	@echo ... edificios.i
+	@echo ... edificios.s
+	@echo ... interface.obj
+	@echo ... interface.i
+	@echo ... interface.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mundo.obj
+	@echo ... mundo.i
+	@echo ... mundo.s
+	@echo ... recursos.obj
+	@echo ... recursos.i
+	@echo ... recursos.s
+	@echo ... trabalhadores.obj
+	@echo ... trabalhadores.i
+	@echo ... trabalhadores.s
+	@echo ... zonas.obj
+	@echo ... zonas.i
+	@echo ... zonas.s
 .PHONY : help
 
 
