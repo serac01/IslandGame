@@ -80,7 +80,52 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/comandos.cpp">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/comandos.h">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/edificios.cpp">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/edificios.h">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/interface.cpp">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/interface.h">
+			<Option target="ProjectPOO"/>
+		</Unit>
 		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/main.cpp">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/mundo.cpp">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/mundo.h">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/recursos.cpp">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/recursos.h">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/trabalhadores.cpp">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/trabalhadores.h">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/zonas.cpp">
+			<Option target="ProjectPOO"/>
+		</Unit>
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/zonas.h">
 			<Option target="ProjectPOO"/>
 		</Unit>
 		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/CMakeLists.txt">

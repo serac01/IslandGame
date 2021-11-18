@@ -92,12 +92,12 @@ clean: CMakeFiles/ProjectPOO.dir/clean
 CMakeFiles/ProjectPOO.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPOO\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target ProjectPOO"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPOO\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9 "Built target ProjectPOO"
 .PHONY : CMakeFiles/ProjectPOO.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ProjectPOO.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPOO\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPOO\cmake-build-debug\CMakeFiles" 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ProjectPOO.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPOO\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/ProjectPOO.dir/rule
