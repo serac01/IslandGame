@@ -23,6 +23,10 @@ string
 -
 vector
 -
+stdlib.h
+-
+time.h
+-
 
 C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/interface.cpp
 interface.h
