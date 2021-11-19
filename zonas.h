@@ -14,12 +14,12 @@ class Zona{
     int id;
 
 public:
-    Zona(string n="", string a=""): nome(n), abreviatura(a) {
-        std::cout << "Construindo a Zona: " << nome << " " << abreviatura << "\n";
+    Zona(string n="", string a="", int i=0): nome(n), abreviatura(a), id(i) {
+        std::cout << "Construindo a Zona: " << nome << " " << abreviatura << " " << id << "\n";
     }
 
     ~Zona(){
-        std::cout << "Destruindo a zona: " << nome << " " << abreviatura << "\n";
+        std::cout << "Destruindo a zona: " << nome << " " << abreviatura << " " << id <<"\n";
     }
 
     string &getAbreviaturas(){
@@ -30,6 +30,10 @@ public:
         return nome;
     }
 
+    int &getId(){
+        return id;
+    }
+
     string &setAbreviaturas(string a){
         abreviatura=a;
         return abreviatura;
@@ -38,6 +42,11 @@ public:
     string &setNome(string n){
         nome=n;
         return nome;
+    }
+
+    int &setId(int n){
+        id=n;
+        return id;
     }
 };
 
