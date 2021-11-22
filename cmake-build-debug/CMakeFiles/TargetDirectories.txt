@@ -1,3 +1,3 @@
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/CMakeFiles/ProjectPOO.dir
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO.dir
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

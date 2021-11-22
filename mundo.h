@@ -1,13 +1,10 @@
-//
-// Created by serco on 17/11/2021.
-//
+// Created by Sérgio Costa on 17/11/2021.
 
 #ifndef PROJECTPOO_MUNDO_H
 #define PROJECTPOO_MUNDO_H
 
-#include "includes.h"
 #include "zonas.h"
-#include "trabalhadores.h"
+#include <fstream>
 
 class Mundo{
     int linha;
@@ -28,9 +25,9 @@ public:
 
     void prencheTabela();
 
-    int prencheZonaTrabalhador(string nome);
+    int prencheZonaTrabalhador(std::string nome);
 
-    int prencheZonaEdificio(string nome, string abr, int linha, int coluna);
+    int prencheZonaEdificio(std::string nome, std::string abr, int linha, int coluna);
 
     void mostraTabela();
 
@@ -43,4 +40,4 @@ public:
     }
 };
 
-#endif //PROJECTPOO_MUNDO_H
+#endif

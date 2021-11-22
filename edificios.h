@@ -1,47 +1,37 @@
+// Created by Sérgio Costa on 18/11/2021.
+
 #ifndef PROJECTPOO_EDIFICIOS_H
 #define PROJECTPOO_EDIFICIOS_H
-#include "includes.h"
+
+#include <iostream>
 
 class Edificio {
-    string nome,abreviatura;
+    std::string nome,abreviatura;
     bool estado;
     int linha, coluna;
+
 public:
-    Edificio(string n="", string a="   ", int l=0, int c=0): nome(n), abreviatura(a), estado(false), linha(l), coluna(c) {
-        std::cout << "Construindo o Edificio: " << nome << " " << abreviatura << " " << estado << " " << linha << " " << coluna << "\n";
-    }
+    Edificio(std::string n="", std::string a="   ", int l=0, int c=0): nome(n), abreviatura(a), estado(false), linha(l), coluna(c) { }
 
-    ~Edificio(){
-        std::cout << "Destruindo o Edificio: " << nome << " " << abreviatura << " " << estado << " " << linha << " " << coluna << "\n";
-    }
+    ~Edificio(){ }
 
-    string &getNome(){
-        return nome;
-    }
+    std::string &getNome(){ return nome; }
 
-    string &getAbreviatura(){
-        return abreviatura;
-    }
+    std::string &getAbreviatura(){ return abreviatura; }
 
-    bool &getEstado(){
-        return estado;
-    }
+    bool &getEstado(){ return estado; }
 
-    int &getLinha(){
-        return linha;
-    }
+    int &getLinha(){ return linha; }
 
-    int &getColuna(){
-        return coluna;
-    }
+    int &getColuna(){ return coluna; }
 
     //Setters
-    string &setnome(string a){
+    std::string &setnome(std::string a){
         nome=a;
         return nome;
     }
 
-    string &setAbreviatura(string a){
+    std::string &setAbreviatura(std::string a){
         abreviatura=a;
         return abreviatura;
     }

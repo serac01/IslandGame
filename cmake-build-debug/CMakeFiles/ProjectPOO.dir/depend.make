@@ -3,20 +3,13 @@
 
 CMakeFiles/ProjectPOO.dir/comandos.cpp.obj: \
  ../comandos.cpp \
- ../comandos.h \
- ../edificios.h \
- ../includes.h \
- ../mundo.h \
- ../trabalhadores.h \
- ../zonas.h
+ ../comandos.h
 CMakeFiles/ProjectPOO.dir/edificios.cpp.obj: \
  ../edificios.cpp \
- ../edificios.h \
- ../includes.h
+ ../edificios.h
 CMakeFiles/ProjectPOO.dir/interface.cpp.obj: \
  ../comandos.h \
  ../edificios.h \
- ../includes.h \
  ../interface.cpp \
  ../interface.h \
  ../mundo.h \
@@ -33,7 +26,6 @@ CMakeFiles/ProjectPOO.dir/main.cpp.obj: \
  ../zonas.h
 CMakeFiles/ProjectPOO.dir/mundo.cpp.obj: \
  ../edificios.h \
- ../includes.h \
  ../mundo.cpp \
  ../mundo.h \
  ../trabalhadores.h \
@@ -42,12 +34,10 @@ CMakeFiles/ProjectPOO.dir/recursos.cpp.obj: \
  ../recursos.cpp \
  ../recursos.h
 CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.obj: \
- ../includes.h \
  ../trabalhadores.cpp \
  ../trabalhadores.h
 CMakeFiles/ProjectPOO.dir/zonas.cpp.obj: \
  ../edificios.h \
- ../includes.h \
  ../trabalhadores.h \
  ../zonas.cpp \
  ../zonas.h

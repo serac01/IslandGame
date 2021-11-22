@@ -1,5 +1,6 @@
 #include "interface.h"
-#include "zonas.h"
+
+using namespace std;
 
 int verificaArgumentos(int argIntroduzidos, int argUsados){
     if(argIntroduzidos != argUsados) {

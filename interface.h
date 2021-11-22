@@ -1,21 +1,16 @@
-//
-// Created by serco on 18/11/2021.
-//
+// Created by Sérgio Costa on 18/11/2021.
 
 #ifndef PROJECTPOO_INTERFACE_H
 #define PROJECTPOO_INTERFACE_H
 
+#include <vector>
+#include <fstream>
 #include "mundo.h"
-#include "includes.h"
 #include "comandos.h"
-#include "edificios.h"
-#include "trabalhadores.h"
-#include <iostream>
-#include <sstream>
 
 class Interface {
     Mundo& mnd;
-    vector<Comando> comandos = { {"exec", "Executa um conjunto de comandos existentes em nomeFicheiro.", "<nomeFicheiro>"},
+    std::vector<Comando> comandos = { {"exec", "Executa um conjunto de comandos existentes em nomeFicheiro.", "<nomeFicheiro>"},
                                  {"cons", "Constrói um edifício de um dado tipo na zona posicionada na linha e coluna.", "<tipo> <linha> <coluna>"},
                                  {"liga", "Liga o edifício que está construído na zona posicionada na linha e coluna.", "<linha> <coluna>"},
                                  {"des", "Desliga o edifício que está construído na zona posicionada na linha e coluna.", "<linha> <coluna>"},
@@ -39,11 +34,11 @@ public:
 
     ~Interface() {}
 
-    void pedirComandos(string cmd="",string cmdCompleto="");
+    void pedirComandos(std::string cmd="", std::string cmdCompleto="");
 
-    void pjp(string input){
+    void pjp(std::string input){
         int c,l,i=0,flag=0;
-        string cmdLido;
+        std::string cmdLido;
         c=mnd.getColuna();
         l=mnd.getLinha();
         cmdLido = input.substr(5);
@@ -58,16 +53,16 @@ public:
         }
 
         if(cmdLido == nomeTrabalhadores[i]){
-            cout << "\n\n\tVoce escolheu o trabalhador: " << nomeTrabalhadores[i] << endl;
+            std::cout << "\n\n\tVoce escolheu o trabalhador: " << nomeTrabalhadores[i] << std::endl;
             mnd.prencheZonaTrabalhador(cmdLido);
         }
         else
-            cout << "\n\n\tNao existe esse trabalhador: " << endl;
+            std::cout << "\n\n\tNao existe esse trabalhador: " << std::endl;
     }
 
-    void pjpp(string input){
+    void pjpp(std::string input){
         int c, l,i=0,flag=0;
-        string cmdLido,linha,coluna;
+        std::string cmdLido,linha,coluna;
         cmdLido = input.substr(5);
         linha = input.substr(9);
         coluna = input.substr(11);
@@ -88,18 +83,18 @@ public:
         }
 
         if(cmdLido == abrEdificio[i]){
-            cout << "\n\n\tVoce escolheu o trabalhador: " << nomeEdificio[i] << " " << l << " " << c << endl;
+            std::cout << "\n\n\tVoce escolheu o trabalhador: " << nomeEdificio[i] << " " << l << " " << c << std::endl;
             mnd.prencheZonaEdificio(nomeEdificio[i],cmdLido,l,c);
         }
         else
-            cout << "\n\n\tNao existe esse trabalhador: " << endl;
+            std::cout << "\n\n\tNao existe esse trabalhador: " << std::endl;
     }
 
-    int pp(string input);
+    int pp(std::string input);
 
     void pjppp(){
         mnd.mostraTabela();
     }
 };
 
-#endif //PROJECTPOO_INTERFACE_H
+#endif
