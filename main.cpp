@@ -26,6 +26,8 @@ int main(){
     Interface interf(m);
     interf.pedirComandos();
 
+    m.mostraTabela();
+
 
     return 0;
 }

@@ -8,6 +8,10 @@
 #include "mundo.h"
 #include "includes.h"
 #include "comandos.h"
+#include "edificios.h"
+#include "trabalhadores.h"
+#include <iostream>
+#include <sstream>
 
 class Interface {
     Mundo& mnd;
@@ -35,7 +39,67 @@ public:
 
     ~Interface() {}
 
-    void pedirComandos();
+    void pedirComandos(string cmd="",string cmdCompleto="");
+
+    void pjp(string input){
+        int c,l,i=0,flag=0;
+        string cmdLido;
+        c=mnd.getColuna();
+        l=mnd.getLinha();
+        cmdLido = input.substr(5);
+        const char *abrTrabalhadores[3] = { "O","M","L"},
+                *nomeTrabalhadores[3] = { "operario", "mineiro","lenhador"};
+
+        while(cmdLido != nomeTrabalhadores[i]){
+            if (i>=4){
+                break;
+            }
+            i++;
+        }
+
+        if(cmdLido == nomeTrabalhadores[i]){
+            cout << "\n\n\tVoce escolheu o trabalhador: " << nomeTrabalhadores[i] << endl;
+            mnd.prencheZonaTrabalhador(cmdLido);
+        }
+        else
+            cout << "\n\n\tNao existe esse trabalhador: " << endl;
+    }
+
+    void pjpp(string input){
+        int c, l,i=0,flag=0;
+        string cmdLido,linha,coluna;
+        cmdLido = input.substr(5);
+        linha = input.substr(9);
+        coluna = input.substr(11);
+        cmdLido = cmdLido.substr(0, cmdLido.find(" "));
+        linha = linha.substr(0, linha.find(" "));
+        const char *abrEdificio[5] = { "mnF","mnC","ele", "bat", "fun"},
+                *nomeEdificio[5] = { "Mina de Ferro", "Mina de Carvao","Central Eletrica", "Bateria", "Fundicao"};
+
+
+        l = stoi(linha);
+        c = stoi(coluna);
+
+        while(cmdLido != abrEdificio[i]){
+            if (i>=4){
+                break;
+            }
+            i++;
+        }
+
+        if(cmdLido == abrEdificio[i]){
+            cout << "\n\n\tVoce escolheu o trabalhador: " << nomeEdificio[i] << " " << l << " " << c << endl;
+            mnd.prencheZonaEdificio(nomeEdificio[i],cmdLido,l,c);
+        }
+        else
+            cout << "\n\n\tNao existe esse trabalhador: " << endl;
+    }
+
+    int pp(string input);
+
+    void pjppp(){
+        mnd.mostraTabela();
+    }
 };
 
 #endif //PROJECTPOO_INTERFACE_H
