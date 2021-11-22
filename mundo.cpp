@@ -1,5 +1,7 @@
 #include "mundo.h"
 
+using namespace std;
+
 void Mundo::criaTabela(){
     //Numero de linhas
     arrayZonas = new Zona*[linha];

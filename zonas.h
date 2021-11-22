@@ -5,20 +5,19 @@
 #ifndef PROJECTPOO_ZONAS_H
 #define PROJECTPOO_ZONAS_H
 
-#include "includes.h"
 #include "edificios.h"
 #include "trabalhadores.h"
-
+#include <vector>
 
 class Zona{
-    string nome,abreviatura;
+    std::string nome,abreviatura;
     int num;
     static int contador;
-    vector <Trabalhador> trabalhadores;
+    std::vector <Trabalhador> trabalhadores;
     Edificio h;
 
 public:
-    Zona(string n="", string a=""): nome(n), abreviatura(a), num(contador++) {
+    Zona(std::string n="", std::string a=""): nome(n), abreviatura(a), num(contador++) {
         //std::cout << "Construindo a Zona: " << nome << " " << abreviatura << " " << num << "\n";
     }
 
@@ -26,11 +25,11 @@ public:
         //std::cout << "Destruindo a zona: " << nome << " " << abreviatura << " " << num <<"\n";
     }
 
-    string &getAbreviaturas(){
+    std::string &getAbreviaturas(){
         return abreviatura;
     }
 
-    string &getNome(){
+    std::string &getNome(){
         return nome;
     }
 
@@ -38,21 +37,21 @@ public:
         return num;
     }
 
-    string &getEdificio(){
+    std::string &getEdificio(){
         return h.getAbreviatura();
     }
 
-    string &setAbreviaturas(string a){
+    std::string &setAbreviaturas(std::string a){
         abreviatura=a;
         return abreviatura;
     }
 
-    string &setNome(string n){
+    std::string &setNome(std::string n){
         nome=n;
         return nome;
     }
 
-    void setEdificio(string nome,string abr,int linha,int coluna){
+    void setEdificio(std::string nome,std::string abr,int linha,int coluna){
         h.setAbreviatura(abr);
         h.setnome(nome);
         h.setLinha(linha);
@@ -80,7 +79,7 @@ public:
     void testfunc(char* outStr, int lin, int col){
         char str[]="    ";
         int i=0,j;
-        string n;
+        std::string n;
 
         for (Trabalhador c : trabalhadores)
             if((c.getLinha()==lin) && (c.getColuna()==col) && i<4) {

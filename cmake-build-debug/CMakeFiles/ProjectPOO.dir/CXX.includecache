@@ -6,19 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/comandos.h
-includes.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h
-mundo.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/mundo.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/comandos.cpp
+comandos.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/comandos.h
 
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/edificios.h
-includes.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/comandos.h
+sstream
+-
 
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/edificios.cpp
+edificios.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/edificios.h
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/edificios.h
 iostream
 -
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/includes.h
 sstream
 -
 string
@@ -34,53 +38,63 @@ iostream
 fstream
 -
 
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/interface.cpp
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/interface.cpp
 interface.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/interface.h
-zonas.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/zonas.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/interface.h
 
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/interface.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/interface.h
+vector
+-
+fstream
+-
 mundo.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/mundo.h
-includes.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mundo.h
 comandos.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/comandos.h
-edificios.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/edificios.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/comandos.h
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/main.cpp
+includes.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/includes.h
+mundo.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mundo.h
+interface.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/interface.h
+time.h
+-
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mundo.cpp
+mundo.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mundo.h
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mundo.h
+zonas.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/zonas.h
+fstream
+-
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/recursos.cpp
+recursos.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/recursos.h
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/recursos.h
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/trabalhadores.cpp
 trabalhadores.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/trabalhadores.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/trabalhadores.h
+
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/trabalhadores.h
 iostream
 -
-sstream
--
 
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/main.cpp
-includes.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h
-mundo.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/mundo.h
-interface.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/interface.h
-
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/mundo.h
-includes.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/zonas.cpp
 zonas.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/zonas.h
-trabalhadores.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/trabalhadores.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/zonas.h
 
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/trabalhadores.h
-includes.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h
-
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/zonas.h
-includes.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/zonas.h
 edificios.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/edificios.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/edificios.h
 trabalhadores.h
-C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/trabalhadores.h
+C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/trabalhadores.h
+vector
+-
 

@@ -1,6 +1,7 @@
-#include "includes.h"
-#include "mundo.h"
 #include "interface.h"
+#include <time.h>
+
+using namespace std;
 
 int main(){
     srand(time(NULL));

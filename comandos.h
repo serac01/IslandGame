@@ -1,30 +1,24 @@
-//
-// Created by serco on 18/11/2021.
-//
+// Created by Sérgio Costa on 18/11/2021.
 
 #ifndef PROJECTPOO_COMANDOS_H
 #define PROJECTPOO_COMANDOS_H
 
-#include "includes.h"
-#include "mundo.h"
+#include <sstream>
 
 class Comando {
-    string nome, descr, args;
-    bool disponivel = false;
+    std::string nome, descr, args;
 
 public:
-    Comando(string n, string d, string a = "") : nome(n), descr(d), args(a) {}
+    Comando(std::string n, std::string d, std::string a = "") : nome(n), descr(d), args(a) {}
 
     // Devolve o nome do comando
-    string getNome() const { return nome; }
-
-    // Devolve a descricao do comando
-    string getDescr() const { return descr; }
+    std::string getNome() const { return nome; }
 
     // Devolve os argumentos que o comando necessita
-    string getArgs() const { return args; }
+    std::string getArgs() const { return args; }
 
-    string getAsString() const;
+    //Não é usado, mas mostra a descrição dos comandos
+    std::string getAsString() const;
 };
 
 #endif //PROJECTPOO_COMANDOS_H

@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug"/>
+				<Option working_dir="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug"/>
+				<Option working_dir="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ProjectPOO">
-				<Option output="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/ProjectPOO.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug"/>
+				<Option output="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/ProjectPOO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -42,15 +42,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectPOO"/>
-					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectPOO"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ProjectPOO/fast">
-				<Option output="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/ProjectPOO.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug"/>
+				<Option output="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/ProjectPOO.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -63,72 +63,72 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectPOO/fast"/>
-					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProjectPOO/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug"/>
+				<Option working_dir="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/comandos.cpp">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/comandos.cpp">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/comandos.h">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/comandos.h">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/edificios.cpp">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/edificios.cpp">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/edificios.h">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/edificios.h">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/includes.h">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/includes.h">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/interface.cpp">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/interface.cpp">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/interface.h">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/interface.h">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/main.cpp">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/main.cpp">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/mundo.cpp">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mundo.cpp">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/mundo.h">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mundo.h">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/recursos.cpp">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/recursos.cpp">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/recursos.h">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/recursos.h">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/trabalhadores.cpp">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/trabalhadores.cpp">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/trabalhadores.h">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/trabalhadores.h">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/zonas.cpp">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/zonas.cpp">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/zonas.h">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/zonas.h">
 			<Option target="ProjectPOO"/>
 		</Unit>
-		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPOO/CMakeLists.txt">
+		<Unit filename="C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

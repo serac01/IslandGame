@@ -1,18 +1,16 @@
-//
-// Created by serco on 22/11/2021.
-//
+// Created by Sérgio Costa on 22/11/2021.
 
 #ifndef PROJECTPOO_TRABALHADORES_H
 #define PROJECTPOO_TRABALHADORES_H
 
-#include "includes.h"
+#include <iostream>
 
 class Trabalhador {
-    string nome;
+    std::string nome;
     int linha, coluna;
 
 public:
-    Trabalhador(string n="", int l=0, int c=0) : nome(n), linha(l), coluna(c)  {
+    Trabalhador(std::string n="", int l=0, int c=0) : nome(n), linha(l), coluna(c)  {
         //std::cout << "Construindo a Trabalhador: " << nome << " " << linha << " " << coluna << "\n";
     }
 
@@ -20,7 +18,7 @@ public:
         //std::cout << "Destruindo a Trabalhador: " << nome << " " << linha << " " << coluna <<"\n";
     }
 
-    string &getNome(){
+    std::string &getNome(){
         return nome;
     }
 
@@ -32,7 +30,7 @@ public:
         return coluna;
     }
 
-    string &setnome(string a){
+    std::string &setnome(std::string a){
         nome=a;
         return nome;
     }
@@ -48,4 +46,4 @@ public:
     }
 };
 
-#endif //PROJECTPOO_TRABALHADORES_H
+#endif
