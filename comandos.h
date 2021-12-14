@@ -9,16 +9,13 @@ class Comando {
     std::string nome, descr, args;
 
 public:
+    //CONSTRUTOR
     Comando(std::string n, std::string d, std::string a = "") : nome(n), descr(d), args(a) {}
 
-    // Devolve o nome do comando
-    std::string getNome() const { return nome; }
-
-    // Devolve os argumentos que o comando necessita
-    std::string getArgs() const { return args; }
-
-    //Não é usado, mas mostra a descrição dos comandos
+    //GETTERS
+    std::string getNome() const;
+    std::string getArgs() const;
     std::string getAsString() const;
 };
 
-#endif //PROJECTPOO_COMANDOS_H
+#endif

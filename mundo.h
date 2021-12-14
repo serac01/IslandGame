@@ -14,30 +14,29 @@ class Mundo{
 public:
     Mundo(int lin=3, int col=3): linha(lin), coluna(col) {}
 
-    //Apaga a memoria dinamica que foi alocada para o array bidimencional
     ~Mundo() {
-        for(int i=0;i<linha;i++)    //To delete the inner arrays
+        for(int i=0;i<linha;i++)
             delete [] arrayZonas[i];
-        delete [] arrayZonas;              //To delete the outer array
+        delete [] arrayZonas;
     }
+
+    int &getLinha();
+
+    int &getColuna();
 
     void criaTabela();
 
     void prencheTabela();
 
+    void mostraTabela();
+
     int prencheZonaTrabalhador(std::string nome);
 
     int prencheZonaEdificio(std::string nome, std::string abr, int linha, int coluna);
 
-    void mostraTabela();
+    void descTabela(int l, int c);
 
-    int &getLinha(){
-        return linha;
-    }
-
-    int &getColuna(){
-        return coluna;
-    }
+    void descTabelaCompleta();
 };
 
 #endif

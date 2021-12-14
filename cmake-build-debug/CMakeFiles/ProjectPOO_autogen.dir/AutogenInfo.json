@@ -1,0 +1,244 @@
+{
+	"BUILD_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/ProjectPOO_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/CMakeLists.txt",
+		"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake",
+		"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/3.20.2/CMakeCCompiler.cmake",
+		"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeGenericSystem.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeFindCodeBlocks.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/ProcessorCount.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU-C.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-C.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU.cmake",
+		"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/3.20.2/CMakeRCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeRCInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-windres.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-C-ABI.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCXXInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeLanguageInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU-CXX.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-CXX.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5/Qt5Config.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeParseArguments.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeParseArguments.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/comandos.h",
+			"MU",
+			"EWIEGA46WW/moc_comandos.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/edificios.h",
+			"MU",
+			"EWIEGA46WW/moc_edificios.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/gamewindow.h",
+			"MU",
+			"EWIEGA46WW/moc_gamewindow.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/interface.h",
+			"MU",
+			"EWIEGA46WW/moc_interface.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mundo.h",
+			"MU",
+			"EWIEGA46WW/moc_mundo.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/recursos.h",
+			"MU",
+			"EWIEGA46WW/moc_recursos.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/trabalhadores.h",
+			"MU",
+			"EWIEGA46WW/moc_trabalhadores.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/zonas.h",
+			"MU",
+			"EWIEGA46WW/moc_zonas.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/ProjectPOO_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/ProjectPOO_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Qt/5.12.12/mingw73_32/include",
+		"C:/Qt/5.12.12/mingw73_32/include/QtCore",
+		"C:/Qt/5.12.12/mingw73_32/mkspecs/win32-g++",
+		"C:/Qt/5.12.12/mingw73_32/include/QtGui",
+		"C:/Qt/5.12.12/mingw73_32/include/QtANGLE",
+		"C:/Qt/5.12.12/mingw73_32/include/QtWidgets",
+		"C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++",
+		"C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32",
+		"C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward",
+		"C:/MinGW/lib/gcc/mingw32/6.3.0/include",
+		"C:/MinGW/include",
+		"C:/MinGW/lib/gcc/mingw32/6.3.0/include-fixed",
+		"C:/MinGW/mingw32/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/MinGW/bin/g++.exe",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/ProjectPOO_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Qt/5.12.12/mingw73_32/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/Qt/5.12.12/mingw73_32/bin/uic.exe",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/comandos.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/edificios.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/gamewindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/interface.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mundo.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/recursos.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/trabalhadores.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/zonas.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

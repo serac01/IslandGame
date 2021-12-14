@@ -2,6 +2,10 @@
 
 using namespace std;
 
+string Comando::getNome() const { return nome; }
+
+string Comando::getArgs() const { return args; }
+
 string Comando::getAsString() const {
     ostringstream os;
 

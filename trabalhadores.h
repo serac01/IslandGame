@@ -10,40 +10,19 @@ class Trabalhador {
     int linha, coluna;
 
 public:
-    Trabalhador(std::string n="", int l=0, int c=0) : nome(n), linha(l), coluna(c)  {
-        //std::cout << "Construindo a Trabalhador: " << nome << " " << linha << " " << coluna << "\n";
-    }
+    Trabalhador(std::string n="", int l=0, int c=0) : nome(n), linha(l), coluna(c)  { }
 
-    ~Trabalhador(){
-        //std::cout << "Destruindo a Trabalhador: " << nome << " " << linha << " " << coluna <<"\n";
-    }
+    ~Trabalhador(){ }
 
-    std::string &getNome(){
-        return nome;
-    }
+    //Gets
+    std::string &getNome();
+    int &getLinha();
+    int &getColuna();
 
-    int &getLinha(){
-        return linha;
-    }
-
-    int &getColuna(){
-        return coluna;
-    }
-
-    std::string &setnome(std::string a){
-        nome=a;
-        return nome;
-    }
-
-    int &setLinha(int l){
-        linha=l;
-        return linha;
-    }
-
-    int &setColuna(int c){
-        coluna=c;
-        return coluna;
-    }
+    //Sets
+    std::string &setnome(std::string a);
+    int &setLinha(int l);
+    int &setColuna(int c);
 };
 
 #endif

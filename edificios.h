@@ -7,50 +7,29 @@
 
 class Edificio {
     std::string nome,abreviatura;
-    bool estado;
     int linha, coluna;
+    bool estado;
 
 public:
+    //CONSTRUTOR
     Edificio(std::string n="", std::string a="   ", int l=0, int c=0): nome(n), abreviatura(a), estado(false), linha(l), coluna(c) { }
 
+    //DESTRUTOR
     ~Edificio(){ }
 
-    std::string &getNome(){ return nome; }
+    //SETTERS
+    std::string &setnome(std::string a);
+    std::string &setAbreviatura(std::string a);
+    bool &setEstado(bool e);
+    int &setLinha(int l);
+    int &setColuna(int c);
 
-    std::string &getAbreviatura(){ return abreviatura; }
-
-    bool &getEstado(){ return estado; }
-
-    int &getLinha(){ return linha; }
-
-    int &getColuna(){ return coluna; }
-
-    //Setters
-    std::string &setnome(std::string a){
-        nome=a;
-        return nome;
-    }
-
-    std::string &setAbreviatura(std::string a){
-        abreviatura=a;
-        return abreviatura;
-    }
-
-    bool &setEstado(bool e){
-        estado=e;
-        return estado;
-    }
-
-    int &setLinha(int l){
-        linha=l;
-        return linha;
-    }
-
-    int &setColuna(int c){
-        coluna=c;
-        return coluna;
-    }
+    //GETTERS
+    std::string &getNome();
+    std::string &getAbreviatura();
+    bool &getEstado();
+    int &getLinha();
+    int &getColuna();
 };
 
-
-#endif //PROJECTPOO_EDIFICIOS_H
+#endif

@@ -36,65 +36,17 @@ public:
 
     void pedirComandos(std::string cmd="", std::string cmdCompleto="");
 
-    void pjp(std::string input){
-        int c,l,i=0,flag=0;
-        std::string cmdLido;
-        c=mnd.getColuna();
-        l=mnd.getLinha();
-        cmdLido = input.substr(5);
-        const char *abrTrabalhadores[3] = { "O","M","L"},
-                *nomeTrabalhadores[3] = { "operario", "mineiro","lenhador"};
+    int verificaArgumentos(int argIntroduzidos, int argUsados);
 
-        while(cmdLido != nomeTrabalhadores[i]){
-            if (i>=4){
-                break;
-            }
-            i++;
-        }
+    void contrataTrabalhador(std::string input);
 
-        if(cmdLido == nomeTrabalhadores[i]){
-            std::cout << "\n\n\tVoce escolheu o trabalhador: " << nomeTrabalhadores[i] << std::endl;
-            mnd.prencheZonaTrabalhador(cmdLido);
-        }
-        else
-            std::cout << "\n\n\tNao existe esse trabalhador: " << std::endl;
-    }
+    void constroiEdificio(std::string input);
 
-    void pjpp(std::string input){
-        int c, l,i=0,flag=0;
-        std::string cmdLido,linha,coluna;
-        cmdLido = input.substr(5);
-        linha = input.substr(9);
-        coluna = input.substr(11);
-        cmdLido = cmdLido.substr(0, cmdLido.find(" "));
-        linha = linha.substr(0, linha.find(" "));
-        const char *abrEdificio[5] = { "mnF","mnC","ele", "bat", "fun"},
-                *nomeEdificio[5] = { "Mina de Ferro", "Mina de Carvao","Central Eletrica", "Bateria", "Fundicao"};
+    int executaComando(std::string input);
 
+    void listaTudo(std::string input);
 
-        l = stoi(linha);
-        c = stoi(coluna);
-
-        while(cmdLido != abrEdificio[i]){
-            if (i>=4){
-                break;
-            }
-            i++;
-        }
-
-        if(cmdLido == abrEdificio[i]){
-            std::cout << "\n\n\tVoce escolheu o trabalhador: " << nomeEdificio[i] << " " << l << " " << c << std::endl;
-            mnd.prencheZonaEdificio(nomeEdificio[i],cmdLido,l,c);
-        }
-        else
-            std::cout << "\n\n\tNao existe esse trabalhador: " << std::endl;
-    }
-
-    int pp(std::string input);
-
-    void pjppp(){
-        mnd.mostraTabela();
-    }
+    void listaZona(std::string input);
 };
 
 #endif
