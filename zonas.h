@@ -1,6 +1,4 @@
-//
-// Created by serco on 17/11/2021.
-//
+// Created by Sérgio Costa on 17/11/2021.
 
 #ifndef PROJECTPOO_ZONAS_H
 #define PROJECTPOO_ZONAS_H
@@ -17,79 +15,25 @@ class Zona{
     Edificio h;
 
 public:
-    Zona(std::string n="", std::string a=""): nome(n), abreviatura(a), num(contador++) {
-        //std::cout << "Construindo a Zona: " << nome << " " << abreviatura << " " << num << "\n";
-    }
+    Zona(std::string n="", std::string a=""): nome(n), abreviatura(a), num(contador++) { }
 
-    ~Zona(){
-        //std::cout << "Destruindo a zona: " << nome << " " << abreviatura << " " << num <<"\n";
-    }
+    ~Zona(){ }
 
-    std::string &getAbreviaturas(){
-        return abreviatura;
-    }
+    //Gets
+    std::string &getAbreviaturas();
+    std::string &getNome();
+    std::string &getEdificio();
+    int &getNumZona();
 
-    std::string &getNome(){
-        return nome;
-    }
+    //Sets
+    std::string &setAbreviaturas(std::string a);
+    std::string &setNome(std::string n);
 
-    int &getNumZona(){
-        return num;
-    }
-
-    std::string &getEdificio(){
-        return h.getAbreviatura();
-    }
-
-    std::string &setAbreviaturas(std::string a){
-        abreviatura=a;
-        return abreviatura;
-    }
-
-    std::string &setNome(std::string n){
-        nome=n;
-        return nome;
-    }
-
-    void setEdificio(std::string nome,std::string abr,int linha,int coluna){
-        h.setAbreviatura(abr);
-        h.setnome(nome);
-        h.setLinha(linha);
-        h.setColuna(coluna);
-    }
-
-    int setTrabalhador(Trabalhador &trb, int i, int j){
-        if(nome == "Pastagem"){
-            trb.setLinha(i);
-            trb.setColuna(j);
-            trabalhadores.push_back(trb);
-            return 1;
-        }
-        return 0;
-    }
-
-    int contraTrabalhadores(int lin, int col){
-        int count = 0;
-        for (Trabalhador c : trabalhadores)
-            if((c.getLinha()==lin) && (c.getColuna()==col))
-                count++;
-        return count;
-    }
-
-    void testfunc(char* outStr, int lin, int col){
-        char str[]="    ";
-        int i=0,j;
-        std::string n;
-
-        for (Trabalhador c : trabalhadores)
-            if((c.getLinha()==lin) && (c.getColuna()==col) && i<4) {
-                n=c.getNome();
-                str[i] = n[0];
-                i++;
-            }
-        for(j=0;j<4;j++)
-            outStr[j]= toupper(str[j]);
-    }
+    //Outras:
+    void setEdificio(std::string nome,std::string abr,int linha,int coluna);
+    int setTrabalhador(Trabalhador &trb, int i, int j);
+    int contaTrabalhadores(int lin, int col);
+    void concatTrabalhadores(char* outStr, int lin, int col);
 };
 
 #endif //PROJECTPOO_ZONAS_H

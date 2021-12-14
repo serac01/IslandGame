@@ -1,4 +1,4 @@
 ToolSet: 5.0 (local)@C:\MinGW
 Options: 
 
-Options:
+Options:-DCMAKE_PREFIX_PATH=C:\Qt\5.12.12\mingw73_32\lib\cmake

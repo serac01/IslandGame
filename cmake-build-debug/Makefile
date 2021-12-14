@@ -128,6 +128,43 @@ ProjectPOO/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/build
 .PHONY : ProjectPOO/fast
 
+#=============================================================================
+# Target rules for targets named ProjectPOO_autogen
+
+# Build rule for target.
+ProjectPOO_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ProjectPOO_autogen
+.PHONY : ProjectPOO_autogen
+
+# fast build rule for target.
+ProjectPOO_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO_autogen.dir\build.make CMakeFiles/ProjectPOO_autogen.dir/build
+.PHONY : ProjectPOO_autogen/fast
+
+ProjectPOO_autogen/mocs_compilation.obj: ProjectPOO_autogen/mocs_compilation.cpp.obj
+.PHONY : ProjectPOO_autogen/mocs_compilation.obj
+
+# target to build an object file
+ProjectPOO_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.obj
+.PHONY : ProjectPOO_autogen/mocs_compilation.cpp.obj
+
+ProjectPOO_autogen/mocs_compilation.i: ProjectPOO_autogen/mocs_compilation.cpp.i
+.PHONY : ProjectPOO_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+ProjectPOO_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.i
+.PHONY : ProjectPOO_autogen/mocs_compilation.cpp.i
+
+ProjectPOO_autogen/mocs_compilation.s: ProjectPOO_autogen/mocs_compilation.cpp.s
+.PHONY : ProjectPOO_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+ProjectPOO_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.s
+.PHONY : ProjectPOO_autogen/mocs_compilation.cpp.s
+
 comandos.obj: comandos.cpp.obj
 .PHONY : comandos.obj
 
@@ -176,6 +213,30 @@ edificios.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/edificios.cpp.s
 .PHONY : edificios.cpp.s
 
+gamewindow.obj: gamewindow.cpp.obj
+.PHONY : gamewindow.obj
+
+# target to build an object file
+gamewindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/gamewindow.cpp.obj
+.PHONY : gamewindow.cpp.obj
+
+gamewindow.i: gamewindow.cpp.i
+.PHONY : gamewindow.i
+
+# target to preprocess a source file
+gamewindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/gamewindow.cpp.i
+.PHONY : gamewindow.cpp.i
+
+gamewindow.s: gamewindow.cpp.s
+.PHONY : gamewindow.s
+
+# target to generate assembly for a file
+gamewindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/gamewindow.cpp.s
+.PHONY : gamewindow.cpp.s
+
 interface.obj: interface.cpp.obj
 .PHONY : interface.obj
 
@@ -223,6 +284,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+mainwindow.obj: mainwindow.cpp.obj
+.PHONY : mainwindow.obj
+
+# target to build an object file
+mainwindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/mainwindow.cpp.obj
+.PHONY : mainwindow.cpp.obj
+
+mainwindow.i: mainwindow.cpp.i
+.PHONY : mainwindow.i
+
+# target to preprocess a source file
+mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/mainwindow.cpp.i
+.PHONY : mainwindow.cpp.i
+
+mainwindow.s: mainwindow.cpp.s
+.PHONY : mainwindow.s
+
+# target to generate assembly for a file
+mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/mainwindow.cpp.s
+.PHONY : mainwindow.cpp.s
 
 mundo.obj: mundo.cpp.obj
 .PHONY : mundo.obj
@@ -328,19 +413,29 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ProjectPOO_autogen
 	@echo ... ProjectPOO
+	@echo ... ProjectPOO_autogen/mocs_compilation.obj
+	@echo ... ProjectPOO_autogen/mocs_compilation.i
+	@echo ... ProjectPOO_autogen/mocs_compilation.s
 	@echo ... comandos.obj
 	@echo ... comandos.i
 	@echo ... comandos.s
 	@echo ... edificios.obj
 	@echo ... edificios.i
 	@echo ... edificios.s
+	@echo ... gamewindow.obj
+	@echo ... gamewindow.i
+	@echo ... gamewindow.s
 	@echo ... interface.obj
 	@echo ... interface.i
 	@echo ... interface.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mainwindow.obj
+	@echo ... mainwindow.i
+	@echo ... mainwindow.s
 	@echo ... mundo.obj
 	@echo ... mundo.i
 	@echo ... mundo.s
