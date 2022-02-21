@@ -1,0 +1,4 @@
+minac 2
+minaf 1
+len 7
+miner 8

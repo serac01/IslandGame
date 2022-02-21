@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=C:\Qt\5.12.12\mingw73_32\lib\cmake -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo"
+"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_PREFIX_PATH=C:\Qt\5.12.12\mingw73_32\lib\cmake -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt"
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug
+-- Build files have been written to: C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug

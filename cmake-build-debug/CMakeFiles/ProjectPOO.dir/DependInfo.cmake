@@ -8,17 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/ProjectPOO_autogen/mocs_compilation.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.obj"
-  "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/comandos.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO.dir/comandos.cpp.obj"
-  "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/edificios.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO.dir/edificios.cpp.obj"
-  "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/gamewindow.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO.dir/gamewindow.cpp.obj"
-  "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/interface.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO.dir/interface.cpp.obj"
-  "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/main.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO.dir/main.cpp.obj"
-  "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mainwindow.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO.dir/mainwindow.cpp.obj"
-  "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mundo.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO.dir/mundo.cpp.obj"
-  "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/recursos.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO.dir/recursos.cpp.obj"
-  "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/trabalhadores.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.obj"
-  "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/zonas.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO.dir/zonas.cpp.obj"
+  "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Comandos/comandos.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.obj"
+  "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Edificio/edificios.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.obj"
+  "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Ilha/ilha.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.obj"
+  "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Interface/gamewindow.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.obj"
+  "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Interface/mainwindow.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.obj"
+  "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/ProjectPOO_autogen/mocs_compilation.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.obj"
+  "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Recursos/recursos.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.obj"
+  "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Trabalhadores/trabalhadores.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.obj"
+  "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Zona/zona.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.obj"
+  "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/main.cpp" "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/ProjectPOO.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo"
+CMAKE_SOURCE_DIR = "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ProjectPOO.dir/depend.make
@@ -68,185 +68,169 @@ include CMakeFiles/ProjectPOO.dir/flags.make
 CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
 CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
 CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.obj: ProjectPOO_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\ProjectPOO_autogen\mocs_compilation.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\ProjectPOO_autogen\mocs_compilation.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\ProjectPOO_autogen\mocs_compilation.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\ProjectPOO_autogen\mocs_compilation.cpp"
 
 CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\ProjectPOO_autogen\mocs_compilation.cpp" > CMakeFiles\ProjectPOO.dir\ProjectPOO_autogen\mocs_compilation.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\ProjectPOO_autogen\mocs_compilation.cpp" > CMakeFiles\ProjectPOO.dir\ProjectPOO_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\ProjectPOO_autogen\mocs_compilation.cpp" -o CMakeFiles\ProjectPOO.dir\ProjectPOO_autogen\mocs_compilation.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\ProjectPOO_autogen\mocs_compilation.cpp" -o CMakeFiles\ProjectPOO.dir\ProjectPOO_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/ProjectPOO.dir/main.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
 CMakeFiles/ProjectPOO.dir/main.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
 CMakeFiles/ProjectPOO.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProjectPOO.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\main.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProjectPOO.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\main.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\main.cpp"
 
 CMakeFiles/ProjectPOO.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\main.cpp" > CMakeFiles\ProjectPOO.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\main.cpp" > CMakeFiles\ProjectPOO.dir\main.cpp.i
 
 CMakeFiles/ProjectPOO.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\main.cpp" -o CMakeFiles\ProjectPOO.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\main.cpp" -o CMakeFiles\ProjectPOO.dir\main.cpp.s
 
-CMakeFiles/ProjectPOO.dir/mundo.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
-CMakeFiles/ProjectPOO.dir/mundo.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
-CMakeFiles/ProjectPOO.dir/mundo.cpp.obj: ../mundo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProjectPOO.dir/mundo.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\mundo.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\mundo.cpp"
+CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
+CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
+CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.obj: ../Ilha/ilha.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\Ilha\ilha.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Ilha\ilha.cpp"
 
-CMakeFiles/ProjectPOO.dir/mundo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/mundo.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\mundo.cpp" > CMakeFiles\ProjectPOO.dir\mundo.cpp.i
+CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Ilha\ilha.cpp" > CMakeFiles\ProjectPOO.dir\Ilha\ilha.cpp.i
 
-CMakeFiles/ProjectPOO.dir/mundo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/mundo.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\mundo.cpp" -o CMakeFiles\ProjectPOO.dir\mundo.cpp.s
+CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Ilha\ilha.cpp" -o CMakeFiles\ProjectPOO.dir\Ilha\ilha.cpp.s
 
-CMakeFiles/ProjectPOO.dir/zonas.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
-CMakeFiles/ProjectPOO.dir/zonas.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
-CMakeFiles/ProjectPOO.dir/zonas.cpp.obj: ../zonas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ProjectPOO.dir/zonas.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\zonas.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\zonas.cpp"
+CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
+CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
+CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.obj: ../Interface/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\Interface\mainwindow.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Interface\mainwindow.cpp"
 
-CMakeFiles/ProjectPOO.dir/zonas.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/zonas.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\zonas.cpp" > CMakeFiles\ProjectPOO.dir\zonas.cpp.i
+CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Interface\mainwindow.cpp" > CMakeFiles\ProjectPOO.dir\Interface\mainwindow.cpp.i
 
-CMakeFiles/ProjectPOO.dir/zonas.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/zonas.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\zonas.cpp" -o CMakeFiles\ProjectPOO.dir\zonas.cpp.s
+CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Interface\mainwindow.cpp" -o CMakeFiles\ProjectPOO.dir\Interface\mainwindow.cpp.s
 
-CMakeFiles/ProjectPOO.dir/edificios.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
-CMakeFiles/ProjectPOO.dir/edificios.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
-CMakeFiles/ProjectPOO.dir/edificios.cpp.obj: ../edificios.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ProjectPOO.dir/edificios.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\edificios.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\edificios.cpp"
+CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
+CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
+CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.obj: ../Interface/gamewindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\Interface\gamewindow.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Interface\gamewindow.cpp"
 
-CMakeFiles/ProjectPOO.dir/edificios.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/edificios.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\edificios.cpp" > CMakeFiles\ProjectPOO.dir\edificios.cpp.i
+CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Interface\gamewindow.cpp" > CMakeFiles\ProjectPOO.dir\Interface\gamewindow.cpp.i
 
-CMakeFiles/ProjectPOO.dir/edificios.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/edificios.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\edificios.cpp" -o CMakeFiles\ProjectPOO.dir\edificios.cpp.s
+CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Interface\gamewindow.cpp" -o CMakeFiles\ProjectPOO.dir\Interface\gamewindow.cpp.s
 
-CMakeFiles/ProjectPOO.dir/recursos.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
-CMakeFiles/ProjectPOO.dir/recursos.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
-CMakeFiles/ProjectPOO.dir/recursos.cpp.obj: ../recursos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ProjectPOO.dir/recursos.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\recursos.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\recursos.cpp"
+CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
+CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
+CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.obj: ../Zona/zona.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\Zona\zona.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Zona\zona.cpp"
 
-CMakeFiles/ProjectPOO.dir/recursos.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/recursos.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\recursos.cpp" > CMakeFiles\ProjectPOO.dir\recursos.cpp.i
+CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Zona\zona.cpp" > CMakeFiles\ProjectPOO.dir\Zona\zona.cpp.i
 
-CMakeFiles/ProjectPOO.dir/recursos.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/recursos.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\recursos.cpp" -o CMakeFiles\ProjectPOO.dir\recursos.cpp.s
+CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Zona\zona.cpp" -o CMakeFiles\ProjectPOO.dir\Zona\zona.cpp.s
 
-CMakeFiles/ProjectPOO.dir/comandos.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
-CMakeFiles/ProjectPOO.dir/comandos.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
-CMakeFiles/ProjectPOO.dir/comandos.cpp.obj: ../comandos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ProjectPOO.dir/comandos.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\comandos.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\comandos.cpp"
+CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
+CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
+CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.obj: ../Comandos/comandos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\Comandos\comandos.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Comandos\comandos.cpp"
 
-CMakeFiles/ProjectPOO.dir/comandos.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/comandos.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\comandos.cpp" > CMakeFiles\ProjectPOO.dir\comandos.cpp.i
+CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Comandos\comandos.cpp" > CMakeFiles\ProjectPOO.dir\Comandos\comandos.cpp.i
 
-CMakeFiles/ProjectPOO.dir/comandos.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/comandos.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\comandos.cpp" -o CMakeFiles\ProjectPOO.dir\comandos.cpp.s
+CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Comandos\comandos.cpp" -o CMakeFiles\ProjectPOO.dir\Comandos\comandos.cpp.s
 
-CMakeFiles/ProjectPOO.dir/interface.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
-CMakeFiles/ProjectPOO.dir/interface.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
-CMakeFiles/ProjectPOO.dir/interface.cpp.obj: ../interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ProjectPOO.dir/interface.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\interface.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\interface.cpp"
+CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
+CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
+CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.obj: ../Trabalhadores/trabalhadores.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\Trabalhadores\trabalhadores.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Trabalhadores\trabalhadores.cpp"
 
-CMakeFiles/ProjectPOO.dir/interface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/interface.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\interface.cpp" > CMakeFiles\ProjectPOO.dir\interface.cpp.i
+CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Trabalhadores\trabalhadores.cpp" > CMakeFiles\ProjectPOO.dir\Trabalhadores\trabalhadores.cpp.i
 
-CMakeFiles/ProjectPOO.dir/interface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/interface.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\interface.cpp" -o CMakeFiles\ProjectPOO.dir\interface.cpp.s
+CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Trabalhadores\trabalhadores.cpp" -o CMakeFiles\ProjectPOO.dir\Trabalhadores\trabalhadores.cpp.s
 
-CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
-CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
-CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.obj: ../trabalhadores.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\trabalhadores.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\trabalhadores.cpp"
+CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
+CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
+CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.obj: ../Edificio/edificios.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\Edificio\edificios.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Edificio\edificios.cpp"
 
-CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\trabalhadores.cpp" > CMakeFiles\ProjectPOO.dir\trabalhadores.cpp.i
+CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Edificio\edificios.cpp" > CMakeFiles\ProjectPOO.dir\Edificio\edificios.cpp.i
 
-CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\trabalhadores.cpp" -o CMakeFiles\ProjectPOO.dir\trabalhadores.cpp.s
+CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Edificio\edificios.cpp" -o CMakeFiles\ProjectPOO.dir\Edificio\edificios.cpp.s
 
-CMakeFiles/ProjectPOO.dir/mainwindow.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
-CMakeFiles/ProjectPOO.dir/mainwindow.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
-CMakeFiles/ProjectPOO.dir/mainwindow.cpp.obj: ../mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ProjectPOO.dir/mainwindow.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\mainwindow.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\mainwindow.cpp"
+CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
+CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
+CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.obj: ../Recursos/recursos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\Recursos\recursos.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Recursos\recursos.cpp"
 
-CMakeFiles/ProjectPOO.dir/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/mainwindow.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\mainwindow.cpp" > CMakeFiles\ProjectPOO.dir\mainwindow.cpp.i
+CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Recursos\recursos.cpp" > CMakeFiles\ProjectPOO.dir\Recursos\recursos.cpp.i
 
-CMakeFiles/ProjectPOO.dir/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/mainwindow.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\mainwindow.cpp" -o CMakeFiles\ProjectPOO.dir\mainwindow.cpp.s
-
-CMakeFiles/ProjectPOO.dir/gamewindow.cpp.obj: CMakeFiles/ProjectPOO.dir/flags.make
-CMakeFiles/ProjectPOO.dir/gamewindow.cpp.obj: CMakeFiles/ProjectPOO.dir/includes_CXX.rsp
-CMakeFiles/ProjectPOO.dir/gamewindow.cpp.obj: ../gamewindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ProjectPOO.dir/gamewindow.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectPOO.dir\gamewindow.cpp.obj -c "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\gamewindow.cpp"
-
-CMakeFiles/ProjectPOO.dir/gamewindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectPOO.dir/gamewindow.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\gamewindow.cpp" > CMakeFiles\ProjectPOO.dir\gamewindow.cpp.i
-
-CMakeFiles/ProjectPOO.dir/gamewindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/gamewindow.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\gamewindow.cpp" -o CMakeFiles\ProjectPOO.dir\gamewindow.cpp.s
+CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\Recursos\recursos.cpp" -o CMakeFiles\ProjectPOO.dir\Recursos\recursos.cpp.s
 
 # Object files for target ProjectPOO
 ProjectPOO_OBJECTS = \
 "CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/ProjectPOO.dir/main.cpp.obj" \
-"CMakeFiles/ProjectPOO.dir/mundo.cpp.obj" \
-"CMakeFiles/ProjectPOO.dir/zonas.cpp.obj" \
-"CMakeFiles/ProjectPOO.dir/edificios.cpp.obj" \
-"CMakeFiles/ProjectPOO.dir/recursos.cpp.obj" \
-"CMakeFiles/ProjectPOO.dir/comandos.cpp.obj" \
-"CMakeFiles/ProjectPOO.dir/interface.cpp.obj" \
-"CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.obj" \
-"CMakeFiles/ProjectPOO.dir/mainwindow.cpp.obj" \
-"CMakeFiles/ProjectPOO.dir/gamewindow.cpp.obj"
+"CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.obj" \
+"CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.obj" \
+"CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.obj" \
+"CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.obj" \
+"CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.obj" \
+"CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.obj" \
+"CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.obj" \
+"CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.obj"
 
 # External object files for target ProjectPOO
 ProjectPOO_EXTERNAL_OBJECTS =
 
 ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.obj
 ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/main.cpp.obj
-ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/mundo.cpp.obj
-ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/zonas.cpp.obj
-ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/edificios.cpp.obj
-ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/recursos.cpp.obj
-ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/comandos.cpp.obj
-ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/interface.cpp.obj
-ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.obj
-ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/mainwindow.cpp.obj
-ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/gamewindow.cpp.obj
+ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.obj
+ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.obj
+ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.obj
+ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.obj
+ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.obj
+ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.obj
+ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.obj
+ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.obj
 ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/build.make
 ProjectPOO.exe: C:/Qt/5.12.12/mingw73_32/lib/libQt5Widgetsd.a
 ProjectPOO.exe: C:/Qt/5.12.12/mingw73_32/lib/libQt5Guid.a
@@ -254,13 +238,13 @@ ProjectPOO.exe: C:/Qt/5.12.12/mingw73_32/lib/libQt5Cored.a
 ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/linklibs.rsp
 ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/objects1.rsp
 ProjectPOO.exe: CMakeFiles/ProjectPOO.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ProjectPOO.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ProjectPOO.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ProjectPOO.dir\link.txt --verbose=$(VERBOSE)
-	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/plugins/platforms/"
-	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E copy C:\Qt\5.12.12\mingw73_32\lib\cmake/../../plugins/platforms/qwindowsd.dll "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/plugins/platforms/"
-	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E copy C:\Qt\5.12.12\mingw73_32\lib\cmake/../../bin/Qt5Cored.dll "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug"
-	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E copy C:\Qt\5.12.12\mingw73_32\lib\cmake/../../bin/Qt5Guid.dll "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug"
-	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E copy C:\Qt\5.12.12\mingw73_32\lib\cmake/../../bin/Qt5Widgetsd.dll "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug"
+	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E make_directory "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/plugins/platforms/"
+	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E copy C:\Qt\5.12.12\mingw73_32\lib\cmake/../../plugins/platforms/qwindowsd.dll "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/plugins/platforms/"
+	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E copy C:\Qt\5.12.12\mingw73_32\lib\cmake/../../bin/Qt5Cored.dll "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug"
+	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E copy C:\Qt\5.12.12\mingw73_32\lib\cmake/../../bin/Qt5Guid.dll "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug"
+	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E copy C:\Qt\5.12.12\mingw73_32\lib\cmake/../../bin/Qt5Widgetsd.dll "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug"
 
 # Rule to build all files generated by this target.
 CMakeFiles/ProjectPOO.dir/build: ProjectPOO.exe
@@ -271,6 +255,6 @@ CMakeFiles/ProjectPOO.dir/clean:
 .PHONY : CMakeFiles/ProjectPOO.dir/clean
 
 CMakeFiles/ProjectPOO.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo" "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo" "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug" "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug" "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles\ProjectPOO.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt" "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt" "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug" "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug" "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles\ProjectPOO.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ProjectPOO.dir/depend
 
