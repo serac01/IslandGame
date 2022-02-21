@@ -37,18 +37,19 @@ public:
     QLabel *labelNLinhas;
     QLineEdit *lineEditNLinhas;
     QLabel *labelStatus;
+    QLabel *label;
     QMenuBar *menubar;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(800, 600);
+        MainWindow->resize(647, 354);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         groupBox = new QGroupBox(centralwidget);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
-        groupBox->setGeometry(QRect(10, 10, 281, 111));
+        groupBox->setGeometry(QRect(190, 130, 271, 111));
         pushButtonEnviarDados = new QPushButton(groupBox);
         pushButtonEnviarDados->setObjectName(QString::fromUtf8("pushButtonEnviarDados"));
         pushButtonEnviarDados->setGeometry(QRect(10, 80, 251, 24));
@@ -86,11 +87,14 @@ public:
 
         labelStatus = new QLabel(centralwidget);
         labelStatus->setObjectName(QString::fromUtf8("labelStatus"));
-        labelStatus->setGeometry(QRect(310, 30, 211, 16));
+        labelStatus->setGeometry(QRect(270, 250, 131, 20));
+        label = new QLabel(centralwidget);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(200, 20, 251, 101));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 800, 21));
+        menubar->setGeometry(QRect(0, 0, 647, 21));
         MainWindow->setMenuBar(menubar);
 
         retranslateUi(MainWindow);
@@ -101,11 +105,12 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
-        groupBox->setTitle(QApplication::translate("MainWindow", "Dados Iniciais", nullptr));
+        groupBox->setTitle(QString());
         pushButtonEnviarDados->setText(QApplication::translate("MainWindow", "Enviar Dados", nullptr));
         labelNColunas->setText(QApplication::translate("MainWindow", "N. Colunas", nullptr));
         labelNLinhas->setText(QApplication::translate("MainWindow", "N. Linhas", nullptr));
-        labelStatus->setText(QApplication::translate("MainWindow", "Status", nullptr));
+        labelStatus->setText(QString());
+        label->setText(QString());
     } // retranslateUi
 
 };

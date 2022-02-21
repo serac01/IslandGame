@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/ProjectPOO_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo",
+	"BUILD_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/ProjectPOO_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/CMakeLists.txt",
-		"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake",
+		"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/CMakeLists.txt",
+		"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake",
 		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeSystemSpecificInitialize.cmake",
-		"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/3.20.2/CMakeCCompiler.cmake",
-		"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake",
+		"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeCCompiler.cmake",
+		"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake",
 		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeGenericSystem.cmake",
 		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeInitializeConfigs.cmake",
@@ -26,7 +26,7 @@
 		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-C.cmake",
 		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU.cmake",
-		"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/3.20.2/CMakeRCCompiler.cmake",
+		"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/3.20.2/CMakeRCCompiler.cmake",
 		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeRCInformation.cmake",
 		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-windres.cmake",
 		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-C-ABI.cmake",
@@ -74,69 +74,135 @@
 		"C:/Qt/5.12.12/mingw73_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
 		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeParseArguments.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo",
+	"CMAKE_SOURCE_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/comandos.h",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Comandos/comandos.h",
 			"MU",
-			"EWIEGA46WW/moc_comandos.cpp",
+			"DDH55FSVJU/moc_comandos.cpp",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/edificios.h",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Edificio/bateria.h",
 			"MU",
-			"EWIEGA46WW/moc_edificios.cpp",
+			"GMZAWNJU5Z/moc_bateria.cpp",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/gamewindow.h",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Edificio/central.h",
 			"MU",
-			"EWIEGA46WW/moc_gamewindow.cpp",
+			"GMZAWNJU5Z/moc_central.cpp",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/interface.h",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Edificio/edificios.h",
 			"MU",
-			"EWIEGA46WW/moc_interface.cpp",
+			"GMZAWNJU5Z/moc_edificios.cpp",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mainwindow.h",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Edificio/fundicao.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"GMZAWNJU5Z/moc_fundicao.cpp",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mundo.h",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Edificio/minaCar.h",
 			"MU",
-			"EWIEGA46WW/moc_mundo.cpp",
+			"GMZAWNJU5Z/moc_minaCar.cpp",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/recursos.h",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Edificio/minaFerr.h",
 			"MU",
-			"EWIEGA46WW/moc_recursos.cpp",
+			"GMZAWNJU5Z/moc_minaFerr.cpp",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/trabalhadores.h",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Edificio/serracao.h",
 			"MU",
-			"EWIEGA46WW/moc_trabalhadores.cpp",
+			"GMZAWNJU5Z/moc_serracao.cpp",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/zonas.h",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Ilha/ilha.h",
 			"MU",
-			"EWIEGA46WW/moc_zonas.cpp",
+			"O3UOYFIVP4/moc_ilha.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Interface/gamewindow.h",
+			"MU",
+			"RIEJA2QBKY/moc_gamewindow.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Interface/mainwindow.h",
+			"MU",
+			"RIEJA2QBKY/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Recursos/recursos.h",
+			"MU",
+			"5UQFCDUPVR/moc_recursos.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Save/save.h",
+			"MU",
+			"HNLZQTAFDL/moc_save.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Trabalhadores/trabalhadores.h",
+			"MU",
+			"NEBFI6CGAA/moc_trabalhadores.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Zona/deserto.h",
+			"MU",
+			"74W75EEG5X/moc_deserto.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Zona/floresta.h",
+			"MU",
+			"74W75EEG5X/moc_floresta.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Zona/montanha.h",
+			"MU",
+			"74W75EEG5X/moc_montanha.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Zona/pantano.h",
+			"MU",
+			"74W75EEG5X/moc_pantano.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Zona/pastagem.h",
+			"MU",
+			"74W75EEG5X/moc_pastagem.cpp",
+			null
+		],
+		[
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Zona/zona.h",
+			"MU",
+			"74W75EEG5X/moc_zona.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/ProjectPOO_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/ProjectPOO_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/ProjectPOO_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/ProjectPOO_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -172,66 +238,61 @@
 		"-c",
 		"C:/Program Files/JetBrains/CLion 2021.1.1/bin/cmake/win/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/ProjectPOO_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/ProjectPOO_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/ProjectPOO_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/5.12.12/mingw73_32/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/5.12.12/mingw73_32/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 12,
-	"SETTINGS_FILE" : "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/ProjectPOO_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/comandos.cpp",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Comandos/comandos.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/edificios.cpp",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Edificio/edificios.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/gamewindow.cpp",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Ilha/ilha.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/interface.cpp",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Interface/gamewindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/main.cpp",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Interface/mainwindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mainwindow.cpp",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Recursos/recursos.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/mundo.cpp",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Trabalhadores/trabalhadores.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/recursos.cpp",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/Zona/zona.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/trabalhadores.cpp",
-			"MU",
-			null
-		],
-		[
-			"C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/zonas.cpp",
+			"C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/main.cpp",
 			"MU",
 			null
 		]

@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo"
+CMAKE_SOURCE_DIR = "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -141,6 +141,126 @@ ProjectPOO_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO_autogen.dir\build.make CMakeFiles/ProjectPOO_autogen.dir/build
 .PHONY : ProjectPOO_autogen/fast
 
+Comandos/comandos.obj: Comandos/comandos.cpp.obj
+.PHONY : Comandos/comandos.obj
+
+# target to build an object file
+Comandos/comandos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.obj
+.PHONY : Comandos/comandos.cpp.obj
+
+Comandos/comandos.i: Comandos/comandos.cpp.i
+.PHONY : Comandos/comandos.i
+
+# target to preprocess a source file
+Comandos/comandos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.i
+.PHONY : Comandos/comandos.cpp.i
+
+Comandos/comandos.s: Comandos/comandos.cpp.s
+.PHONY : Comandos/comandos.s
+
+# target to generate assembly for a file
+Comandos/comandos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Comandos/comandos.cpp.s
+.PHONY : Comandos/comandos.cpp.s
+
+Edificio/edificios.obj: Edificio/edificios.cpp.obj
+.PHONY : Edificio/edificios.obj
+
+# target to build an object file
+Edificio/edificios.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.obj
+.PHONY : Edificio/edificios.cpp.obj
+
+Edificio/edificios.i: Edificio/edificios.cpp.i
+.PHONY : Edificio/edificios.i
+
+# target to preprocess a source file
+Edificio/edificios.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.i
+.PHONY : Edificio/edificios.cpp.i
+
+Edificio/edificios.s: Edificio/edificios.cpp.s
+.PHONY : Edificio/edificios.s
+
+# target to generate assembly for a file
+Edificio/edificios.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Edificio/edificios.cpp.s
+.PHONY : Edificio/edificios.cpp.s
+
+Ilha/ilha.obj: Ilha/ilha.cpp.obj
+.PHONY : Ilha/ilha.obj
+
+# target to build an object file
+Ilha/ilha.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.obj
+.PHONY : Ilha/ilha.cpp.obj
+
+Ilha/ilha.i: Ilha/ilha.cpp.i
+.PHONY : Ilha/ilha.i
+
+# target to preprocess a source file
+Ilha/ilha.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.i
+.PHONY : Ilha/ilha.cpp.i
+
+Ilha/ilha.s: Ilha/ilha.cpp.s
+.PHONY : Ilha/ilha.s
+
+# target to generate assembly for a file
+Ilha/ilha.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Ilha/ilha.cpp.s
+.PHONY : Ilha/ilha.cpp.s
+
+Interface/gamewindow.obj: Interface/gamewindow.cpp.obj
+.PHONY : Interface/gamewindow.obj
+
+# target to build an object file
+Interface/gamewindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.obj
+.PHONY : Interface/gamewindow.cpp.obj
+
+Interface/gamewindow.i: Interface/gamewindow.cpp.i
+.PHONY : Interface/gamewindow.i
+
+# target to preprocess a source file
+Interface/gamewindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.i
+.PHONY : Interface/gamewindow.cpp.i
+
+Interface/gamewindow.s: Interface/gamewindow.cpp.s
+.PHONY : Interface/gamewindow.s
+
+# target to generate assembly for a file
+Interface/gamewindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Interface/gamewindow.cpp.s
+.PHONY : Interface/gamewindow.cpp.s
+
+Interface/mainwindow.obj: Interface/mainwindow.cpp.obj
+.PHONY : Interface/mainwindow.obj
+
+# target to build an object file
+Interface/mainwindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.obj
+.PHONY : Interface/mainwindow.cpp.obj
+
+Interface/mainwindow.i: Interface/mainwindow.cpp.i
+.PHONY : Interface/mainwindow.i
+
+# target to preprocess a source file
+Interface/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.i
+.PHONY : Interface/mainwindow.cpp.i
+
+Interface/mainwindow.s: Interface/mainwindow.cpp.s
+.PHONY : Interface/mainwindow.s
+
+# target to generate assembly for a file
+Interface/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Interface/mainwindow.cpp.s
+.PHONY : Interface/mainwindow.cpp.s
+
 ProjectPOO_autogen/mocs_compilation.obj: ProjectPOO_autogen/mocs_compilation.cpp.obj
 .PHONY : ProjectPOO_autogen/mocs_compilation.obj
 
@@ -165,101 +285,77 @@ ProjectPOO_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/ProjectPOO_autogen/mocs_compilation.cpp.s
 .PHONY : ProjectPOO_autogen/mocs_compilation.cpp.s
 
-comandos.obj: comandos.cpp.obj
-.PHONY : comandos.obj
+Recursos/recursos.obj: Recursos/recursos.cpp.obj
+.PHONY : Recursos/recursos.obj
 
 # target to build an object file
-comandos.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/comandos.cpp.obj
-.PHONY : comandos.cpp.obj
+Recursos/recursos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.obj
+.PHONY : Recursos/recursos.cpp.obj
 
-comandos.i: comandos.cpp.i
-.PHONY : comandos.i
+Recursos/recursos.i: Recursos/recursos.cpp.i
+.PHONY : Recursos/recursos.i
 
 # target to preprocess a source file
-comandos.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/comandos.cpp.i
-.PHONY : comandos.cpp.i
+Recursos/recursos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.i
+.PHONY : Recursos/recursos.cpp.i
 
-comandos.s: comandos.cpp.s
-.PHONY : comandos.s
+Recursos/recursos.s: Recursos/recursos.cpp.s
+.PHONY : Recursos/recursos.s
 
 # target to generate assembly for a file
-comandos.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/comandos.cpp.s
-.PHONY : comandos.cpp.s
+Recursos/recursos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Recursos/recursos.cpp.s
+.PHONY : Recursos/recursos.cpp.s
 
-edificios.obj: edificios.cpp.obj
-.PHONY : edificios.obj
+Trabalhadores/trabalhadores.obj: Trabalhadores/trabalhadores.cpp.obj
+.PHONY : Trabalhadores/trabalhadores.obj
 
 # target to build an object file
-edificios.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/edificios.cpp.obj
-.PHONY : edificios.cpp.obj
+Trabalhadores/trabalhadores.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.obj
+.PHONY : Trabalhadores/trabalhadores.cpp.obj
 
-edificios.i: edificios.cpp.i
-.PHONY : edificios.i
+Trabalhadores/trabalhadores.i: Trabalhadores/trabalhadores.cpp.i
+.PHONY : Trabalhadores/trabalhadores.i
 
 # target to preprocess a source file
-edificios.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/edificios.cpp.i
-.PHONY : edificios.cpp.i
+Trabalhadores/trabalhadores.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.i
+.PHONY : Trabalhadores/trabalhadores.cpp.i
 
-edificios.s: edificios.cpp.s
-.PHONY : edificios.s
+Trabalhadores/trabalhadores.s: Trabalhadores/trabalhadores.cpp.s
+.PHONY : Trabalhadores/trabalhadores.s
 
 # target to generate assembly for a file
-edificios.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/edificios.cpp.s
-.PHONY : edificios.cpp.s
+Trabalhadores/trabalhadores.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Trabalhadores/trabalhadores.cpp.s
+.PHONY : Trabalhadores/trabalhadores.cpp.s
 
-gamewindow.obj: gamewindow.cpp.obj
-.PHONY : gamewindow.obj
+Zona/zona.obj: Zona/zona.cpp.obj
+.PHONY : Zona/zona.obj
 
 # target to build an object file
-gamewindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/gamewindow.cpp.obj
-.PHONY : gamewindow.cpp.obj
+Zona/zona.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.obj
+.PHONY : Zona/zona.cpp.obj
 
-gamewindow.i: gamewindow.cpp.i
-.PHONY : gamewindow.i
-
-# target to preprocess a source file
-gamewindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/gamewindow.cpp.i
-.PHONY : gamewindow.cpp.i
-
-gamewindow.s: gamewindow.cpp.s
-.PHONY : gamewindow.s
-
-# target to generate assembly for a file
-gamewindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/gamewindow.cpp.s
-.PHONY : gamewindow.cpp.s
-
-interface.obj: interface.cpp.obj
-.PHONY : interface.obj
-
-# target to build an object file
-interface.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/interface.cpp.obj
-.PHONY : interface.cpp.obj
-
-interface.i: interface.cpp.i
-.PHONY : interface.i
+Zona/zona.i: Zona/zona.cpp.i
+.PHONY : Zona/zona.i
 
 # target to preprocess a source file
-interface.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/interface.cpp.i
-.PHONY : interface.cpp.i
+Zona/zona.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.i
+.PHONY : Zona/zona.cpp.i
 
-interface.s: interface.cpp.s
-.PHONY : interface.s
+Zona/zona.s: Zona/zona.cpp.s
+.PHONY : Zona/zona.s
 
 # target to generate assembly for a file
-interface.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/interface.cpp.s
-.PHONY : interface.cpp.s
+Zona/zona.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/Zona/zona.cpp.s
+.PHONY : Zona/zona.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -285,126 +381,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mainwindow.obj: mainwindow.cpp.obj
-.PHONY : mainwindow.obj
-
-# target to build an object file
-mainwindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/mainwindow.cpp.obj
-.PHONY : mainwindow.cpp.obj
-
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
-
-# target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
-
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
-
-# target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
-
-mundo.obj: mundo.cpp.obj
-.PHONY : mundo.obj
-
-# target to build an object file
-mundo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/mundo.cpp.obj
-.PHONY : mundo.cpp.obj
-
-mundo.i: mundo.cpp.i
-.PHONY : mundo.i
-
-# target to preprocess a source file
-mundo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/mundo.cpp.i
-.PHONY : mundo.cpp.i
-
-mundo.s: mundo.cpp.s
-.PHONY : mundo.s
-
-# target to generate assembly for a file
-mundo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/mundo.cpp.s
-.PHONY : mundo.cpp.s
-
-recursos.obj: recursos.cpp.obj
-.PHONY : recursos.obj
-
-# target to build an object file
-recursos.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/recursos.cpp.obj
-.PHONY : recursos.cpp.obj
-
-recursos.i: recursos.cpp.i
-.PHONY : recursos.i
-
-# target to preprocess a source file
-recursos.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/recursos.cpp.i
-.PHONY : recursos.cpp.i
-
-recursos.s: recursos.cpp.s
-.PHONY : recursos.s
-
-# target to generate assembly for a file
-recursos.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/recursos.cpp.s
-.PHONY : recursos.cpp.s
-
-trabalhadores.obj: trabalhadores.cpp.obj
-.PHONY : trabalhadores.obj
-
-# target to build an object file
-trabalhadores.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.obj
-.PHONY : trabalhadores.cpp.obj
-
-trabalhadores.i: trabalhadores.cpp.i
-.PHONY : trabalhadores.i
-
-# target to preprocess a source file
-trabalhadores.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.i
-.PHONY : trabalhadores.cpp.i
-
-trabalhadores.s: trabalhadores.cpp.s
-.PHONY : trabalhadores.s
-
-# target to generate assembly for a file
-trabalhadores.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/trabalhadores.cpp.s
-.PHONY : trabalhadores.cpp.s
-
-zonas.obj: zonas.cpp.obj
-.PHONY : zonas.obj
-
-# target to build an object file
-zonas.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/zonas.cpp.obj
-.PHONY : zonas.cpp.obj
-
-zonas.i: zonas.cpp.i
-.PHONY : zonas.i
-
-# target to preprocess a source file
-zonas.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/zonas.cpp.i
-.PHONY : zonas.cpp.i
-
-zonas.s: zonas.cpp.s
-.PHONY : zonas.s
-
-# target to generate assembly for a file
-zonas.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectPOO.dir\build.make CMakeFiles/ProjectPOO.dir/zonas.cpp.s
-.PHONY : zonas.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -415,39 +391,36 @@ help:
 	@echo ... rebuild_cache
 	@echo ... ProjectPOO_autogen
 	@echo ... ProjectPOO
+	@echo ... Comandos/comandos.obj
+	@echo ... Comandos/comandos.i
+	@echo ... Comandos/comandos.s
+	@echo ... Edificio/edificios.obj
+	@echo ... Edificio/edificios.i
+	@echo ... Edificio/edificios.s
+	@echo ... Ilha/ilha.obj
+	@echo ... Ilha/ilha.i
+	@echo ... Ilha/ilha.s
+	@echo ... Interface/gamewindow.obj
+	@echo ... Interface/gamewindow.i
+	@echo ... Interface/gamewindow.s
+	@echo ... Interface/mainwindow.obj
+	@echo ... Interface/mainwindow.i
+	@echo ... Interface/mainwindow.s
 	@echo ... ProjectPOO_autogen/mocs_compilation.obj
 	@echo ... ProjectPOO_autogen/mocs_compilation.i
 	@echo ... ProjectPOO_autogen/mocs_compilation.s
-	@echo ... comandos.obj
-	@echo ... comandos.i
-	@echo ... comandos.s
-	@echo ... edificios.obj
-	@echo ... edificios.i
-	@echo ... edificios.s
-	@echo ... gamewindow.obj
-	@echo ... gamewindow.i
-	@echo ... gamewindow.s
-	@echo ... interface.obj
-	@echo ... interface.i
-	@echo ... interface.s
+	@echo ... Recursos/recursos.obj
+	@echo ... Recursos/recursos.i
+	@echo ... Recursos/recursos.s
+	@echo ... Trabalhadores/trabalhadores.obj
+	@echo ... Trabalhadores/trabalhadores.i
+	@echo ... Trabalhadores/trabalhadores.s
+	@echo ... Zona/zona.obj
+	@echo ... Zona/zona.i
+	@echo ... Zona/zona.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... mainwindow.obj
-	@echo ... mainwindow.i
-	@echo ... mainwindow.s
-	@echo ... mundo.obj
-	@echo ... mundo.i
-	@echo ... mundo.s
-	@echo ... recursos.obj
-	@echo ... recursos.i
-	@echo ... recursos.s
-	@echo ... trabalhadores.obj
-	@echo ... trabalhadores.i
-	@echo ... trabalhadores.s
-	@echo ... zonas.obj
-	@echo ... zonas.i
-	@echo ... zonas.s
 .PHONY : help
 
 

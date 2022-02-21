@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gamewindow</class>
+ <widget class="QDialog" name="gamewindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1095</width>
+    <height>559</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>70</y>
+        <width>851</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="3" column="3">
+        <widget class="QLabel" name="lbCell23">
+         <property name="text">
+          <string>23</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLabel" name="lbCell41">
+         <property name="text">
+          <string>41</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6">
+        <widget class="QLabel" name="lbCell16">
+         <property name="text">
+          <string>16</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="12">
+        <widget class="QLabel" name="lbCell012">
+         <property name="text">
+          <string>012</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="7">
+        <widget class="QLabel" name="lbCell27">
+         <property name="text">
+          <string>27</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="11">
+        <widget class="QLabel" name="lbCell411">
+         <property name="text">
+          <string>411</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="lbCell50">
+         <property name="text">
+          <string>50</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="lbCell60">
+         <property name="text">
+          <string>60</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="lbCell13">
+         <property name="text">
+          <string>13</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLabel" name="lbCell04">
+         <property name="text">
+          <string>04</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="10">
+        <widget class="QLabel" name="lbCell610">
+         <property name="text">
+          <string>610</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="13">
+        <widget class="QLabel" name="lbCell513">
+         <property name="text">
+          <string>513</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="10">
+        <widget class="QLabel" name="lbCell210">
+         <property name="text">
+          <string>210</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="5">
+        <widget class="QLabel" name="lbCell35">
+         <property name="text">
+          <string>35</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QLabel" name="lbCell71">
+         <property name="text">
+          <string>71</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="9">
+        <widget class="QLabel" name="lbCell09">
+         <property name="text">
+          <string>09</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="11">
+        <widget class="QLabel" name="lbCell511">
+         <property name="text">
+          <string>511</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2">
+        <widget class="QLabel" name="lbCell42">
+         <property name="text">
+          <string>42</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="8">
+        <widget class="QLabel" name="lbCell38">
+         <property name="text">
+          <string>38</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="lbCell01">
+         <property name="text">
+          <string>01</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="10">
+        <widget class="QLabel" name="lbCell410">
+         <property name="text">
+          <string>410</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="lbCell40">
+         <property name="text">
+          <string>40</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="4">
+        <widget class="QLabel" name="lbCell64">
+         <property name="text">
+          <string>64</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="10">
+        <widget class="QLabel" name="lbCell510">
+         <property name="text">
+          <string>510</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="3">
+        <widget class="QLabel" name="lbCell53">
+         <property name="text">
+          <string>53</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="10">
+        <widget class="QLabel" name="lbCell010">
+         <property name="text">
+          <string>010</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="13">
+        <widget class="QLabel" name="lbCell113">
+         <property name="text">
+          <string>113</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QLabel" name="lbCell62">
+         <property name="text">
+          <string>62</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="lbCell30">
+         <property name="text">
+          <string>30</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="4">
+        <widget class="QLabel" name="lbCell54">
+         <property name="text">
+          <string>54</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="15">
+        <widget class="QLabel" name="lbCell215">
+         <property name="text">
+          <string>215</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="5">
+        <widget class="QLabel" name="lbCell75">
+         <property name="text">
+          <string>75</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="5">
+        <widget class="QLabel" name="lbCell55">
+         <property name="text">
+          <string>55</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="4">
+        <widget class="QLabel" name="lbCell34">
+         <property name="text">
+          <string>34</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="14">
+        <widget class="QLabel" name="lbCell614">
+         <property name="text">
+          <string>614</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="7">
+        <widget class="QLabel" name="lbCell67">
+         <property name="text">
+          <string>67</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="10">
+        <widget class="QLabel" name="lbCell310">
+         <property name="text">
+          <string>310</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="6">
+        <widget class="QLabel" name="lbCell66">
+         <property name="text">
+          <string>66</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="9">
+        <widget class="QLabel" name="lbCell29">
+         <property name="text">
+          <string>29</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="8">
+        <widget class="QLabel" name="lbCell68">
+         <property name="text">
+          <string>68</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="5">
+        <widget class="QLabel" name="lbCell25">
+         <property name="text">
+          <string>25</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="10">
+        <widget class="QLabel" name="lbCell110">
+         <property name="text">
+          <string>110</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="6">
+        <widget class="QLabel" name="lbCell46">
+         <property name="text">
+          <string>46</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="13">
+        <widget class="QLabel" name="lbCell613">
+         <property name="text">
+          <string>613</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="3">
+        <widget class="QLabel" name="lbCell63">
+         <property name="text">
+          <string>63</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="15">
+        <widget class="QLabel" name="lbCell515">
+         <property name="text">
+          <string>515</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="15">
+        <widget class="QLabel" name="lbCell715">
+         <property name="text">
+          <string>715</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="12">
+        <widget class="QLabel" name="lbCell312">
+         <property name="text">
+          <string>312</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="7">
+        <widget class="QLabel" name="lbCell37">
+         <property name="text">
+          <string>37</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="13">
+        <widget class="QLabel" name="lbCell313">
+         <property name="text">
+          <string>313</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="12">
+        <widget class="QLabel" name="lbCell412">
+         <property name="text">
+          <string>412</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="11">
+        <widget class="QLabel" name="lbCell011">
+         <property name="text">
+          <string>011</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="5">
+        <widget class="QLabel" name="lbCell65">
+         <property name="text">
+          <string>65</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="lbCell21">
+         <property name="text">
+          <string>21</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QLabel" name="lbCell24">
+         <property name="text">
+          <string>24</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLabel" name="lbCell31">
+         <property name="text">
+          <string>31</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLabel" name="lbCell22">
+         <property name="text">
+          <string>22</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="7">
+        <widget class="QLabel" name="lbCell17">
+         <property name="text">
+          <string>17</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="13">
+        <widget class="QLabel" name="lbCell213">
+         <property name="text">
+          <string>213</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="15">
+        <widget class="QLabel" name="lbCell315">
+         <property name="text">
+          <string>315</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="15">
+        <widget class="QLabel" name="lbCell015">
+         <property name="text">
+          <string>015</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="lbCell02">
+         <property name="text">
+          <string>02</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="5">
+        <widget class="QLabel" name="lbCell05">
+         <property name="text">
+          <string>05</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="9">
+        <widget class="QLabel" name="lbCell49">
+         <property name="text">
+          <string>49</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="6">
+        <widget class="QLabel" name="lbCell76">
+         <property name="text">
+          <string>76</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="14">
+        <widget class="QLabel" name="lbCell314">
+         <property name="text">
+          <string>314</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="12">
+        <widget class="QLabel" name="lbCell712">
+         <property name="text">
+          <string>712</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="15">
+        <widget class="QLabel" name="lbCell415">
+         <property name="text">
+          <string>415</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="lbCell12">
+         <property name="text">
+          <string>12</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLabel" name="lbCell14">
+         <property name="text">
+          <string>14</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="5">
+        <widget class="QLabel" name="lbCell45">
+         <property name="text">
+          <string>45</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="14">
+        <widget class="QLabel" name="lbCell514">
+         <property name="text">
+          <string>514</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLabel" name="lbCell61">
+         <property name="text">
+          <string>61</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLabel" name="lbCell32">
+         <property name="text">
+          <string>32</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="8">
+        <widget class="QLabel" name="lbCell78">
+         <property name="text">
+          <string>78</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="9">
+        <widget class="QLabel" name="lbCell59">
+         <property name="text">
+          <string>59</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="4">
+        <widget class="QLabel" name="lbCell74">
+         <property name="text">
+          <string>74</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="13">
+        <widget class="QLabel" name="lbCell413">
+         <property name="text">
+          <string>413</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="14">
+        <widget class="QLabel" name="lbCell714">
+         <property name="text">
+          <string>714</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="11">
+        <widget class="QLabel" name="lbCell311">
+         <property name="text">
+          <string>311</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="8">
+        <widget class="QLabel" name="lbCell08">
+         <property name="text">
+          <string>08</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="6">
+        <widget class="QLabel" name="lbCell26">
+         <property name="text">
+          <string>26</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="9">
+        <widget class="QLabel" name="lbCell39">
+         <property name="text">
+          <string>39</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="lbCell00">
+         <property name="text">
+          <string>00</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="lbCell10">
+         <property name="text">
+          <string>10</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="lbCell20">
+         <property name="text">
+          <string>20</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="14">
+        <widget class="QLabel" name="lbCell014">
+         <property name="text">
+          <string>014</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="15">
+        <widget class="QLabel" name="lbCell615">
+         <property name="text">
+          <string>615</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="9">
+        <widget class="QLabel" name="lbCell79">
+         <property name="text">
+          <string>79</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="8">
+        <widget class="QLabel" name="lbCell58">
+         <property name="text">
+          <string>58</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="12">
+        <widget class="QLabel" name="lbCell512">
+         <property name="text">
+          <string>512</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QLabel" name="lbCell33">
+         <property name="text">
+          <string>33</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="7">
+        <widget class="QLabel" name="lbCell07">
+         <property name="text">
+          <string>07</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="15">
+        <widget class="QLabel" name="lbCell115">
+         <property name="text">
+          <string>115</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="7">
+        <widget class="QLabel" name="lbCell77">
+         <property name="text">
+          <string>77</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="11">
+        <widget class="QLabel" name="lbCell711">
+         <property name="text">
+          <string>711</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="8">
+        <widget class="QLabel" name="lbCell28">
+         <property name="text">
+          <string>28</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="6">
+        <widget class="QLabel" name="lbCell06">
+         <property name="text">
+          <string>06</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="9">
+        <widget class="QLabel" name="lbCell69">
+         <property name="text">
+          <string>69</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="lbCell70">
+         <property name="text">
+          <string>70</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="8">
+        <widget class="QLabel" name="lbCell48">
+         <property name="text">
+          <string>48</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="9">
+        <widget class="QLabel" name="lbCell19">
+         <property name="text">
+          <string>19</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="3">
+        <widget class="QLabel" name="lbCell73">
+         <property name="text">
+          <string>73</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="8">
+        <widget class="QLabel" name="lbCell18">
+         <property name="text">
+          <string>18</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLabel" name="lbCell51">
+         <property name="text">
+          <string>51</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="10">
+        <widget class="QLabel" name="lbCell710">
+         <property name="text">
+          <string>710</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="11">
+        <widget class="QLabel" name="lbCell211">
+         <property name="text">
+          <string>211</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="12">
+        <widget class="QLabel" name="lbCell612">
+         <property name="text">
+          <string>612</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="7">
+        <widget class="QLabel" name="lbCell47">
+         <property name="text">
+          <string>47</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="14">
+        <widget class="QLabel" name="lbCell414">
+         <property name="text">
+          <string>414</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="7">
+        <widget class="QLabel" name="lbCell57">
+         <property name="text">
+          <string>57</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <widget class="QLabel" name="lbCell15">
+         <property name="text">
+          <string>15</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="14">
+        <widget class="QLabel" name="lbCell214">
+         <property name="text">
+          <string>214</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="11">
+        <widget class="QLabel" name="lbCell611">
+         <property name="text">
+          <string>611</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="12">
+        <widget class="QLabel" name="lbCell212">
+         <property name="text">
+          <string>212</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="14">
+        <widget class="QLabel" name="lbCell114">
+         <property name="text">
+          <string>114</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="lbCell03">
+         <property name="text">
+          <string>03</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="lbCell11">
+         <property name="text">
+          <string>11</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="6">
+        <widget class="QLabel" name="lbCell56">
+         <property name="text">
+          <string>56</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="2">
+        <widget class="QLabel" name="lbCell72">
+         <property name="text">
+          <string>72</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="4">
+        <widget class="QLabel" name="lbCell44">
+         <property name="text">
+          <string>44</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="2">
+        <widget class="QLabel" name="lbCell52">
+         <property name="text">
+          <string>52</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="3">
+        <widget class="QLabel" name="lbCell43">
+         <property name="text">
+          <string>43</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="6">
+        <widget class="QLabel" name="lbCell36">
+         <property name="text">
+          <string>36</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="12">
+        <widget class="QLabel" name="lbCell112">
+         <property name="text">
+          <string>112</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="11">
+        <widget class="QLabel" name="lbCell111">
+         <property name="text">
+          <string>111</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="13">
+        <widget class="QLabel" name="lbCell013">
+         <property name="text">
+          <string>013</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="13">
+        <widget class="QLabel" name="lbCell713">
+         <property name="text">
+          <string>713</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>9</y>
+        <width>851</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="lbComando">
+           <property name="text">
+            <string>Comando:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="leComando"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pbComando">
+           <property name="text">
+            <string>Executar</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="lbError">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="gbInformacao">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>70</y>
+        <width>201</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="lbInformacao">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>181</width>
+         <height>441</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

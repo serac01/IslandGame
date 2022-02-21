@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo"
+CMAKE_SOURCE_DIR = "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug"
 
 # Utility rule file for ProjectPOO_autogen.
 
@@ -66,8 +66,8 @@ include CMakeFiles/ProjectPOO_autogen.dir/compiler_depend.make
 include CMakeFiles/ProjectPOO_autogen.dir/progress.make
 
 CMakeFiles/ProjectPOO_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ProjectPOO"
-	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_autogen "C:/Users/serco/Desktop/A Minha Universidade/POO/projectpoo/cmake-build-debug/CMakeFiles/ProjectPOO_autogen.dir/AutogenInfo.json" Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ProjectPOO"
+	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E cmake_autogen "C:/Users/serco/Desktop/A Minha Universidade/POO/ProjectPooInt/cmake-build-debug/CMakeFiles/ProjectPOO_autogen.dir/AutogenInfo.json" Debug
 
 ProjectPOO_autogen: CMakeFiles/ProjectPOO_autogen
 ProjectPOO_autogen: CMakeFiles/ProjectPOO_autogen.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ProjectPOO_autogen.dir/clean:
 .PHONY : CMakeFiles/ProjectPOO_autogen.dir/clean
 
 CMakeFiles/ProjectPOO_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo" "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo" "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug" "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug" "C:\Users\serco\Desktop\A Minha Universidade\POO\projectpoo\cmake-build-debug\CMakeFiles\ProjectPOO_autogen.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt" "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt" "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug" "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug" "C:\Users\serco\Desktop\A Minha Universidade\POO\ProjectPooInt\cmake-build-debug\CMakeFiles\ProjectPOO_autogen.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ProjectPOO_autogen.dir/depend
 

@@ -13,7 +13,16 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(ProjectPOO main.cpp mundo.cpp mundo.h zonas.cpp zonas.h edificios.cpp edificios.h recursos.cpp recursos.h comandos.cpp comandos.h interface.cpp interface.h trabalhadores.cpp trabalhadores.h mainwindow.h mainwindow.ui mainwindow.cpp gamewindow.h gamewindow.cpp gamewindow.ui)
+add_executable(ProjectPOO main.cpp
+        Ilha/ilha.cpp
+        Interface/mainwindow.ui Interface/mainwindow.cpp Interface/gamewindow.ui Interface/gamewindow.cpp
+        Zona/zona.cpp Zona/deserto.h Zona/floresta.h Zona/montanha.h Zona/pantano.h Zona/pastagem.h
+        Comandos/comandos.cpp
+        Trabalhadores/trabalhadores.cpp
+        Edificio/edificios.cpp Edificio/bateria.h Edificio/central.h Edificio/fundicao.h Edificio/minaCar.h Edificio/minaFerr.h Edificio/serracao.h
+        Recursos/recursos.cpp
+        Save/save.h)
+
 target_link_libraries(ProjectPOO
         Qt5::Core
         Qt5::Gui
